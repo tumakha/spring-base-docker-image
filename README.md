@@ -7,6 +7,6 @@
 ### Extending some service image from tumakha/spring-base:latest
 ```dockerfile
 FROM tumakha/spring-base
-ENV SERVER_PORT=8080
+ENV SERVER_PORT=8888
 COPY target/*.jar /app.jar
 ```
