@@ -1,5 +1,7 @@
 # Base Docker image for Spring Boot services
 
+https://hub.docker.com/r/tumakha/spring-base
+
 ### Build Docker image
 
     docker build -t tumakha/spring-base .
