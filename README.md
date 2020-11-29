@@ -2,10 +2,6 @@
 
 https://hub.docker.com/r/tumakha/spring-base
 
-### Build Docker image
-
-    docker build -t tumakha/spring-base .
-
 ### Extending some service image from tumakha/spring-base:latest
 ```dockerfile
 FROM tumakha/spring-base
